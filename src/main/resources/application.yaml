@@ -1,6 +1,7 @@
 spring:
   application:
     name: SpringMDCContextExample
-logging:
-  pattern:
-    console: "%-4r [%t] %5p %c{1} %m [USER=%X{Principal}]%n"
+
+info:
+  app:
+    version: @project.version@
