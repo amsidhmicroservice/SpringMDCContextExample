@@ -19,7 +19,6 @@ public class MyScheduler {
 
     @Scheduled(fixedDelay = 30 * 1000)
     void greet() {
-        MDC.put("X-B3-TraceId", UUID.randomUUID().toString());
         log.info("hello from scheduler");
         myService.display("My name is Amsidh and I am called from scheduler task");
     }

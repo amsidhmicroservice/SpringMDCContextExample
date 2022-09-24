@@ -1,8 +1,9 @@
 spring:
   application:
     name: SpringMDCContextExample
-server:
-  port: 8080
 info:
   app:
     version: @project.version@
+demo:
+  service:
+    url: http://springdemo:8080/health
