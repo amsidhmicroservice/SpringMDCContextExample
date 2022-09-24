@@ -1,7 +1,8 @@
 spring:
   application:
     name: SpringMDCContextExample
-
+server:
+  port: 8080
 info:
   app:
     version: @project.version@
